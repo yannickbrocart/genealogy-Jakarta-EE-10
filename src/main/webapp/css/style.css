@@ -1,0 +1,66 @@
+:root {
+    /* --color-background: #cecece; */
+    --color-title:      #1e2334;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+
+html {
+    background-color: var(--color-background);
+    font-size: 100%;
+}
+
+th {
+	font-size: 12px;
+	justify-content: center;
+}
+
+td {
+	font-size: 12px;
+}
+
+td a i {
+	font-size: 80%;
+}
+
+.genealogies-list {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+	padding: 10px;
+}
+
+.genealogies-list-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.genealogies-list .title {
+    font-size: 32px;
+    color: var(--color-title);
+    align-content: flex-start;
+    line-height: 1;
+}
+
+.genealogies-list-header .input-group {
+	width: 300px;
+	height: 38px;
+}
+
+.sorting {
+	display: flex;
+	flex-direction: row;
+}
+
+.add-genealogy a {
+	font-size: 12px;
+	padding: 9px 20px;
+}
